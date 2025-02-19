@@ -1,0 +1,16 @@
+{
+  "name": "jornada-spotify",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido utilizando React e Express para fazer um clone simplificado de Spotify para estudos.\r Front end gerado utilizando vite",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jornada-spotify": "file:"
+  }
+}
