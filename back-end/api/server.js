@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, "../front-end/dist")));
 app.get("*", async (request, response) => {
   response.sendFile(path.join(__dirname, "/front-end/dist/index.html"));
 });
-console.log(path.join(__dirname, "/front-end/dist/index.html"));
+
 app.listen(PORT, () => {
   console.log("Servidor escutando na porta ", PORT);
 });
